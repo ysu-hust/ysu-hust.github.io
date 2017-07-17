@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,6 +9,10 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+I am a 6th year Ph.D. student in Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Majors in Computer Architecture, advised by Prof. Dan Feng. Before that, I received the B.E. degree in computer science and technology from Huazhong University of Science and Technology in 2012. My research interests include Cloud Storage Systems, Big Data Processing Systems. 
+
+<!-- My CV is available in PDF format here (last updated on April 2017). -->
 
 Education
 ======
