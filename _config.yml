@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Su Yi / 苏毅"
 title_separator          : "-"
 name                     : &name "Su Yi"
-description              : &description "Ph.D. Student"
+description              : &description "Ph.D. Student, Huazhong University of Science and Technology"
 url                      : https://ysu-hust.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ysu-hust/ysu-hust.github.io"
@@ -81,7 +81,7 @@ author:
   avatar           : "profile.png"
   bio              : "Ph.D. Student"
   location         : "Wuhan, China"
-  employer         : "Huazhong University of Science and Technology"
+  employer         : "HUST"
   googlescholar    : 
   email            : "suyi@hust.edu.cn"
   uri              : 
@@ -168,16 +168,19 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  talks:
     output: true
     permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
