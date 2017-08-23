@@ -15,7 +15,7 @@ import glob
 import getorg
 from geopy import Nominatim
 
-g = glob.glob("_talks/*.md")
+g = glob.glob("*.md")
 
 
 geocoder = Nominatim()
