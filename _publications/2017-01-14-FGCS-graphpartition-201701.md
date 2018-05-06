@@ -6,13 +6,13 @@ excerpt: 'Graph partitioning is important in distributed graph processing. Class
 date: 2017-01-14
 venue: 'Future Generation Computer Systems, Volume 71, 2017, Pages 32-42, ISSN 0167-739X'
 paperurl: '../files/FGCS-graphpartition-201701.pdf'
-citation: 'Zhan Shi, Junhao Li, Pengfei Guo, Shuangshuang Li, Dan Feng, Yi Su, Partitioning dynamic graph asynchronously with distributed FENNEL, Future Generation Computer Systems, Volume 71, 2017, Pages 32-42, ISSN 0167-739X, http://dx.doi.org/10.1016/j.future.2017.01.014.'
+citation: '[**FGCS**] Zhan Shi, Junhao Li, Pengfei Guo, Shuangshuang Li, Dan Feng, **Yi Su**, Partitioning dynamic graph asynchronously with distributed FENNEL, Future Generation Computer Systems, Volume 71, 2017, Pages 32-42, ISSN 0167-739X, http://dx.doi.org/10.1016/j.future.2017.01.014.'
 ---
 
 <a href='../files/FGCS-graphpartition-201701.pdf'>Download paper here</a>
 
 Recommended Citation: 
-Zhan Shi, Junhao Li, Pengfei Guo, Shuangshuang Li, Dan Feng, Yi Su, Partitioning dynamic graph asynchronously with distributed FENNEL, Future Generation Computer Systems, Volume 71, 2017, Pages 32-42, ISSN 0167-739X, http://dx.doi.org/10.1016/j.future.2017.01.014.
+[**FGCS**] Zhan Shi, Junhao Li, Pengfei Guo, Shuangshuang Li, Dan Feng, **Yi Su**, Partitioning dynamic graph asynchronously with distributed FENNEL, Future Generation Computer Systems, Volume 71, 2017, Pages 32-42, ISSN 0167-739X, http://dx.doi.org/10.1016/j.future.2017.01.014.
 
 __Abstract__:
 Graph partitioning is important in distributed graph processing. Classical method such as METIS works well on relatively small graphs, but hard to scale for huge, dynamic graphs. Streaming graph partitioning algorithms overcome this issue by processing those graphs as streams. Among these algorithms, FENNEL achieves better edge cut ratio, even close to METIS, but consumes less memory and is significantly faster. On the other hand, graph partitioning may also benefit from distributed graph processing. However, to deploy FENNEL on a cluster, it is important to avoid quality loss and keep efficiency high. The direct implementation of this idea yields a synchronous model and a star-shaped network, which limits both scalability and efficiency. Targeting these two problems, we propose an asynchronous model, combined with a dedicated tree-shaped map-reduce network which is prevail in systems such as Apache Hadoop and Spark, to form AsyncFENNEL (asynchronous FENNEL). We theoretically prove that, the impact on partition quality brought by asynchronous model can be kept as minimal. We test AsyncFENNEL with various synthetic and real-world graphs, the comparison between synchronous and asynchronous models shows that, for streamed natural graphs, AsyncFENNEL can improve performance significantly (above 300% with 8 workers/partitions) with negligible loss on edge cut ratio. However, more worker nodes will introduce a heavier network traffic and reduce efficiency. The proposed tree-shaped map-reduce network can mitigate that impact and increase the performance in that case.
