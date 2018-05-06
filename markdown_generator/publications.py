@@ -87,6 +87,9 @@ for row, item in publications.iterrows():
         md += "\npaperurl: '" + item.paper_url + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
+
+    if len(str(item.short_proceeding)) > 0:
+        md += "\nshortproceeding: '" + item.short_proceeding + "'"
     
     md += "\n---"
     

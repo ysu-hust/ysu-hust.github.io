@@ -38,8 +38,12 @@
     {% endif %} -->
     <!-- {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %} -->
     <!-- {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p> {% endif %} -->
-    {% if post.citation and post.paperurl %}
+    {% if post.citation and post.paperurl and post.shortproceeding %}
+      <p><b>[{{ post.shortproceeding}}]</b> {{ post.citation }} <a href="{{ post.paperurl }}"><u><b>[pdf]</b></u></a></p>
+    {% elsif post.citation and post.paperurl %}
       <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u><b>[pdf]</b></u></a></p>
+    {% elsif post.citation and post.shortproceeding %}
+      <p><b>[{{ post.shortproceeding}}]</b> {{ post.citation }} </p>
     {% elsif post.citation %}
       <p>{{ post.citation }} </p>
     {% elsif post.paperurl %}
