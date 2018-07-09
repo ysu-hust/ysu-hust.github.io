@@ -1,2 +1,3 @@
 title	type	url_slug	venue	date	location	talk_url	description
 ICPP 2017 talk on Cosmodel	Conference proceedings talk	icpp2017-cosmodel	Wills Memorial Building, University of Bristol	2017-08-16	Bristol, UK	"../files/cosmodel_icpp2017_slides43.ppt"	Presentation of the paper: Predicting Response Latency Percentiles for Cloud Object Storage Systems.
+ICDCS 2018 talk on NetRS	Conference proceedings talk	icdcs2018-netrs	Campus Gußhaus, TU Wien	2018-07-03	Vienna, Austria	"../files/NetRS_ICDCS2018_final.pptx"	Presentation of the paper: NetRS: Cutting Response Latency in Distributed Key-Value Stores with In-Network Replica Selection.
